@@ -1,0 +1,29 @@
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 170px;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+    font-size: 20px;
+}
+img{
+    height: 80px;
+    width: 140px;
+}
+.login{
+    font-size: 20px;
+    padding: 20px 30px;
+    border-radius: 50px;
+    background: rgb(173, 165, 165);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.login:hover{
+    transform: scale(1.05);
+}
+
