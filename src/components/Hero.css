@@ -1,17 +1,22 @@
 .hero {
-  background: url('https://source.unsplash.com/1600x600/?fashion,shopping') center/cover no-repeat;
+  background-image: url("/src/assets/background1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
   color: white;
   text-align: center;
-  height: 80vh;
+  height: 91vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .hero-content {
-  background: rgba(0, 0, 0, 0.5);
-  padding: 2rem;
-  border-radius: 8px;
+  background: rgba(82, 79, 79, 0.5);
+  padding: 4rem;
+  border-radius: 19px;
+  font-size: 18px;
 }
 
 .hero-btn {
